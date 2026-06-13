@@ -47,6 +47,7 @@ const CookieConsent: React.FC = () => {
                 <button
                   onClick={() => setIsVisible(false)}
                   className="p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
+                  aria-label="Close cookie consent banner"
                 >
                   <X size={20} />
                 </button>

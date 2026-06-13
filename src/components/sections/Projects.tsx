@@ -209,11 +209,13 @@ const Projects: React.FC = () => {
                 >
                   <button
                     className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
+                    aria-label="View project details"
                   >
                     <Eye size={20} />
                   </button>
                   <button
                     className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
+                    aria-label="View project on GitHub"
                   >
                     <Github size={20} />
                   </button>
@@ -224,6 +226,7 @@ const Projects: React.FC = () => {
                       rel="noopener noreferrer"
                       className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
                       onClick={(e) => e.stopPropagation()}
+                      aria-label="View live project"
                     >
                       <ExternalLink size={20} />
                     </a>
@@ -292,6 +295,7 @@ const Projects: React.FC = () => {
                   <button
                     onClick={() => setSelectedProject(null)}
                     className="absolute top-4 right-4 w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors"
+                    aria-label="Close project modal"
                   >
                     ×
                   </button>

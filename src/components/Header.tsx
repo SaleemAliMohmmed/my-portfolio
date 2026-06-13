@@ -82,6 +82,7 @@ const Header: React.FC = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+              aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </motion.button>
@@ -91,6 +92,7 @@ const Header: React.FC = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 flex items-center space-x-1 rtl:space-x-reverse"
+              aria-label={language === "en" ? "Switch to Arabic" : "Switch to English"}
             >
               <Globe size={20} />
               <span className="text-sm font-medium">{language.toUpperCase()}</span>
@@ -101,6 +103,7 @@ const Header: React.FC = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               whileTap={{ scale: 0.9 }}
               className="md:hidden p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
+              aria-label={isMenuOpen ? "Close mobile menu" : "Open mobile menu"}
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </motion.button>
