@@ -11,7 +11,7 @@ const Services: React.FC = () => {
       icon: Code,
       title: t('services.webDev.title'),
       description: t('services.webDev.description'),
-      image: '/images/service-webdev.png',
+      image: '/images/service-webdev.webp',
       color: 'from-blue-500 to-cyan-500',
       borderColor: 'border-blue-500'
     },
@@ -19,7 +19,7 @@ const Services: React.FC = () => {
       icon: Palette,
       title: t('services.uiux.title'),
       description: t('services.uiux.description'),
-      image: '/images/service-uiux.png',
+      image: '/images/service-uiux.webp',
       color: 'from-purple-500 to-pink-500',
       borderColor: 'border-purple-500'
     },

@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project4.title'),
       description: t('projects.project4.description'),
-      image: '/images/portfolio.png',
+      image: '/images/portfolio.webp',
       technologies: ['React JS', 'Tailwind CSS'],
       github: 'https://github.com/SaleemAliMohmmed',
       live: '#',
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project5.title'),
       description: t('projects.project5.description'),
-      image: '/images/buraqplus.png',
+      image: '/images/buraqplus.webp',
       technologies: ['Full Stack', 'Education'],
       github: '#',
       live: 'https://al-buraqplus.com',
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project6.title'),
       description: t('projects.project6.description'),
-      image: '/images/farham-web.png',
+      image: '/images/farham-web.webp',
       technologies: ['Full Stack', 'CRUD', 'Bilingual'],
       github: '#',
       live: 'https://farhm.org',
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project7.title'),
       description: t('projects.project7.description'),
-      image: '/images/maza-web.png',
+      image: '/images/maza-web.webp',
       technologies: ['Laravel', 'MySQL', 'Back-end'],
       github: '#',
       live: 'https://a.mazaya.academy',
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project8.title'),
       description: t('projects.project8.description'),
-      image: '/images/todawini.png',
+      image: '/images/todawini.webp',
       technologies: ['Laravel', 'Back-end', 'Medical'],
       github: '#',
       live: 'https://todawini.com',
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project9.title'),
       description: t('projects.project9.description'),
-      image: '/images/Sentiment-Analysis.png',
+      image: '/images/Sentiment-Analysis.webp',
       technologies: ['Python', 'Flask', 'NLP'],
       github: '#',
       live: '#',
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project10.title'),
       description: t('projects.project10.description'),
-      image: '/images/project-web-development.png',
+      image: '/images/project-web-development.webp',
       technologies: ['Laravel', 'Back-end', 'Webhook'],
       github: '#',
       live: '#',
@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project11.title'),
       description: t('projects.project11.description'),
-      image: '/images/project-web-development.png',
+      image: '/images/project-web-development.webp',
       technologies: ['C#', 'SQL Server', 'Desktop'],
       github: '#',
       live: '#',
@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project12.title'),
       description: t('projects.project12.description'),
-      image: '/images/project-web-development.png',
+      image: '/images/project-web-development.webp',
       technologies: ['Full Stack', 'Survey', 'Data Visualization'],
       github: '#',
       live: '#',
@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project13.title'),
       description: t('projects.project13.description'),
-      image: '/images/project-dashboard.png',
+      image: '/images/project-dashboard.webp',
       technologies: ['Laravel', 'PHP', 'Tailwind CSS', 'ZATCA'],
       github: '#',
       live: 'https://hesabatipro.com',
@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project14.title'),
       description: t('projects.project14.description'),
-      image: '/images/project-mobile-app.jpg',
+      image: '/images/project-mobile-app.webp',
       technologies: ['Flutter', 'Dart', 'Laravel', 'RESTful API'],
       github: '#',
       live: '#',
@@ -111,7 +111,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project15.title'),
       description: t('projects.project15.description'),
-      image: '/images/project-web-development.png',
+      image: '/images/project-web-development.webp',
       technologies: ['AI', 'NLP', 'LLMs', 'React', 'Python'],
       github: '#',
       live: '#',
@@ -120,7 +120,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project16.title'),
       description: t('projects.project16.description'),
-      image: '/images/project-dashboard.png',
+      image: '/images/project-dashboard.webp',
       technologies: ['Python', 'MTCNN', 'FaceNet', 'Flask'],
       github: '#',
       live: '#',
@@ -129,7 +129,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project17.title'),
       description: t('projects.project17.description'),
-      image: '/images/project-web-development.png',
+      image: '/images/project-web-development.webp',
       technologies: ['PHP', 'MySQL', 'CMS', 'SEO'],
       github: '#',
       live: 'https://yemenlegalaccountant.com',

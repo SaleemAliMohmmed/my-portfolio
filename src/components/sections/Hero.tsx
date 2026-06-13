@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/images/hero-background.jpg)',
+          backgroundImage: 'url(/images/hero-background.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -74,8 +74,9 @@ const Hero: React.FC = () => {
               </motion.div>
               <motion.img
                 whileHover={{ scale: 1.05 }}
-                src="/images/profile-headshot.jpg"
+                src="/images/profile-headshot.webp"
                 alt="Saleem Ali"
+                fetchPriority="high"
                 className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
               />
               <motion.div
