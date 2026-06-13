@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Database, Palette, Smartphone, Server, Globe, Zap, Shield } from 'lucide-react';
+import { Code, Database, Cpu, Smartphone, Server, Globe, Zap, Shield } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Skills: React.FC = () => {
@@ -31,7 +31,7 @@ const Skills: React.FC = () => {
     },
     {
       title: t('skills.design'),
-      icon: Palette,
+      icon: Cpu,
       color: 'from-purple-500 to-pink-500',
       skills: [
         { name: 'Machine Learning', level: 88 },

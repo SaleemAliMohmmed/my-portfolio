@@ -132,7 +132,7 @@ const resources = {
         subtitle: "My expertise",
         frontend: "Frontend Development",
         backend: "Backend Development", 
-        design: "UI/UX Design",
+        design: "AI Technologies",
         mobile: "Mobile Development"
       },
       contact: {
@@ -287,7 +287,7 @@ const resources = {
         subtitle: "خبرتي",
         frontend: "تطوير الواجهة الأمامية",
         backend: "تطوير الواجهة الخلفية",
-        design: "تصميم واجهات المستخدم",
+        design: "تقنيات الذكاء الاصطناعي",
         mobile: "تطوير التطبيقات"
       },
       contact: {
