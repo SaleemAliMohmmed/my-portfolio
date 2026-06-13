@@ -14,22 +14,19 @@ const Testimonials: React.FC = () => {
       text: t('testimonials.client1.text'),
       name: t('testimonials.client1.name'),
       position: t('testimonials.client1.position'),
-      rating: 5,
-      avatar: '/images/profile-headshot.jpg' // Using the same image as placeholder
+      rating: 5
     },
     {
       text: t('testimonials.client2.text'),
       name: t('testimonials.client2.name'),
       position: t('testimonials.client2.position'),
-      rating: 5,
-      avatar: '/images/profile-headshot.jpg'
+      rating: 5
     },
     {
       text: t('testimonials.client3.text'),
       name: t('testimonials.client3.name'),
       position: t('testimonials.client3.position'),
-      rating: 5,
-      avatar: '/images/profile-headshot.jpg'
+      rating: 5
     }
   ];
 
@@ -145,22 +142,14 @@ const Testimonials: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="flex items-center justify-center space-x-4 rtl:space-x-reverse"
+                className="text-center"
               >
-                <motion.img
-                  whileHover={{ scale: 1.05 }}
-                  src={testimonials[currentIndex].avatar}
-                  alt={testimonials[currentIndex].name}
-                  className="w-16 h-16 rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg"
-                />
-                <div className={`text-center ${isRTL ? 'text-right' : 'text-left'}`}>
-                  <h4 className="text-lg font-bold text-gray-900 dark:text-white">
-                    {testimonials[currentIndex].name}
-                  </h4>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    {testimonials[currentIndex].position}
-                  </p>
-                </div>
+                <h4 className="text-lg font-bold text-gray-900 dark:text-white">
+                  {testimonials[currentIndex].name}
+                </h4>
+                <p className="text-gray-600 dark:text-gray-400">
+                  {testimonials[currentIndex].position}
+                </p>
               </motion.div>
             </motion.div>
           </AnimatePresence>

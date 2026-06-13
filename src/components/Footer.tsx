@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/SaleemAliMohmmed', label: 'GitHub' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Instagram, href: '#', label: 'Instagram' }
@@ -64,14 +64,23 @@ const Footer: React.FC = () => {
                 className="flex items-center space-x-3 rtl:space-x-reverse text-gray-400 hover:text-white transition-colors duration-300"
               >
                 <Mail size={16} />
-                <span>john@example.com</span>
+                <span>saleemaliquid@gmail.com</span>
               </motion.div>
               <motion.div
                 whileHover={{ x: isRTL ? -5 : 5 }}
                 className="flex items-center space-x-3 rtl:space-x-reverse text-gray-400 hover:text-white transition-colors duration-300"
               >
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+966 539779728</span>
+              </motion.div>
+              <motion.div
+                whileHover={{ x: isRTL ? -5 : 5 }}
+                className="flex items-center space-x-3 rtl:space-x-reverse text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                <div className="flex items-center space-x-3 rtl:space-x-reverse">
+                  <span className="text-gray-400">Location:</span>
+                  <span>Jeddah, Kingdom of Saudi Arabia</span>
+                </div>
               </motion.div>
             </div>
           </motion.div>

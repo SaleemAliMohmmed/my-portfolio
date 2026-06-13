@@ -10,6 +10,7 @@ import Testimonials from './components/sections/Testimonials';
 import Skills from './components/sections/Skills';
 import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
+import CookieConsent from './components/ui/CookieConsent';
 import './i18n';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Contact />
           </main>
           <Footer />
+          <CookieConsent />
         </div>
       </LanguageProvider>
     </ThemeProvider>

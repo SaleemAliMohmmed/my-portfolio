@@ -24,11 +24,11 @@ const resources = {
       about: {
         title: "About Me",
         subtitle: "Get to know me better",
-        content: "I'm an IT Engineer specializing in web development and AI research, with a passion for teaching. I build and maintain responsive websites, optimize performance, and explore innovative AI solutions. I also enjoy sharing knowledge and mentoring students, fostering their growth in technical, educational, and research environments.",
-        experience: "3+ Years Experience",
-        projects: "10+ Projects Completed",
-        clients: "15+ Happy Clients",
-        awards: "2+ Awards Won"
+        content: "I am an Information Technology Engineer, graduated from Taiz University with a GPA of 91.93%. I specialize in Full Stack development and AI research, with a strong focus on building scalable web applications and innovative AI solutions. I have a deep passion for academic and educational work and have developed several learning platforms, aiming to bridge the gap between technology and learning. My expertise spans across Laravel, Flutter, Python, and Generative AI.",
+        experience: "More than 4 Years Experience",
+        projects: "15+ Projects Completed",
+        clients: "20+ Happy Clients",
+        awards: "3+ Awards Won"
       },
       services: {
         title: "Services",
@@ -86,25 +86,45 @@ const resources = {
         project12: {
           title: "Survey System",
           description: "Full Stack Developer | Developed a survey system to collect and analyze user feedback for various organizations. Designed and implemented a user-friendly interface for survey creation and response collection. Integrated data visualization tools to generate insightful reports from survey results. Ensured secure data handling and storage for sensitive survey responses."
+        },
+        project13: {
+          title: "AwAERP - Cloud ERP & Accounting System",
+          description: "Full Stack Developer | 2026 | Saudi Arabia | Architected a comprehensive cloud-based ERP and accounting platform using Laravel, PHP, and Tailwind CSS, featuring multi-branch management and full compliance with Saudi ZATCA standards. Engineered robust cybersecurity protocols and data governance, implementing AES-256 encryption, Role-Based Access Control (RBAC), SQL injection prevention, and detailed automated audit trails. Developed highly integrated modules for POS, automated financial reporting, inventory tracking (FIFO/LIFO/AVG), and scalable RESTful APIs to ensure cross-device compatibility."
+        },
+        project14: {
+          title: "Smart Expense Management Application",
+          description: "Mobile & Full Stack Developer | 2025 | Yemen | Designed and engineered a cross-platform mobile application for real-time financial tracking and expense management utilizing the Flutter framework and the Dart programming language. Architected a secure, scalable backend using Laravel, developing robust RESTful APIs to handle seamless data synchronization, user authentication, and financial records storage."
+        },
+        project15: {
+          title: "Smart Assessment and Personalized Learning Platform",
+          description: "AI Developer | Jan 2025 | Saudi Arabia | Developing a full-stack, AI-powered web platform tailored for adaptive learning and smart educational assessment. Leveraging advanced NLP and Generative AI (LLMs) to provide personalized study resources, dynamically generate multiple-choice questions, and deploy an interactive student-support chatbot."
+        },
+        project16: {
+          title: "Intelligent Employee Attendance and Management System",
+          description: "AI Developer | 2025 | Yemen | Engineered a real-time deep learning pipeline in Python utilizing MTCNN for robust multi-face detection. Integrated a pre-trained FaceNet model to generate high-accuracy 512-dimension facial embeddings. Developed a scalable and secure backend RESTful API using Flask to handle attendance verification."
+        },
+        project17: {
+          title: "CMS for a Professional Accountant",
+          description: "Full Stack Developer | 2025 | Yemen | Engineered a complete website and backend solution utilizing a high-performance PHP/MySQL stack. Built a secure, custom CMS from scratch with full CRUD functionality, enabling non-technical clients to seamlessly manage site content, SEO keywords, and visual styles."
         }
       },
       testimonials: {
         title: "Testimonials",
         subtitle: "What clients say",
         client1: {
-          text: "Outstanding work! John delivered exactly what we needed and exceeded our expectations.",
-          name: "Sarah Johnson",
-          position: "CEO, Tech Solutions"
+          text: "Saleem is an exceptional developer. He delivered our ERP system with high professionalism and full compliance with ZATCA standards.",
+          name: "Eng. Ahmed Al-Saeedi",
+          position: "CEO, Tech Solutions - Yemen"
         },
         client2: {
-          text: "Professional, creative, and reliable. I highly recommend John for any web project.",
-          name: "Michael Chen",
-          position: "Marketing Director"
+          text: "Professional, creative, and reliable. The educational platform he developed for us has transformed our training programs.",
+          name: "Dr. Mohammed Al-Amri",
+          position: "Academic Director - Saudi Arabia"
         },
         client3: {
-          text: "The attention to detail and quality of work is exceptional. Great communication throughout.",
-          name: "Emma Davis",
-          position: "Product Manager"
+          text: "The attention to detail in the AI attendance system is exceptional. Great communication and technical expertise.",
+          name: "Abdullah Ba-Wazir",
+          position: "Operations Manager - Yemen"
         }
       },
       skills: {
@@ -126,13 +146,13 @@ const resources = {
           send: "Send Message"
         },
         info: {
-          address: "123 Developer Street, Tech City, TC 12345",
-          phone: "+1 (555) 123-4567",
-          email: "john@example.com"
+          address: "Jeddah, Al-Rayyan, Kingdom of Saudi Arabia",
+          phone: "+966 539779728",
+          email: "saleemaliquid@gmail.com"
         }
       },
       footer: {
-        copyright: "© 2025 Saleem Ali. All rights reserved.",
+        copyright: "© 2026 Saleem Ali. All rights reserved.",
         madeWith: "Made with ❤️ using React & Tailwind CSS"
       }
     }
@@ -159,11 +179,11 @@ const resources = {
       about: {
         title: "عني",
         subtitle: "تعرف علي أكثر",
-        content: "أنا مهندس تكنولوجيا معلومات متخصص في تطوير الويب وبحوث الذكاء الاصطناعي، ولدي شغف بالتدريس. أقوم ببناء وصيانة مواقع الويب سريعة الاستجابة، وتحسين الأداء، واستكشاف حلول الذكاء الاصطناعي المبتكرة. أستمتع أيضًا بمشاركة المعرفة وتوجيه الطلاب، مما يعزز نموهم في البيئات التقنية والتعليمية والبحثية.",
-        experience: "خبرة أكثر من 3 سنوات",
-        projects: "أكثر من 10 مشروع مكتمل",
-        clients: "أكثر من 20 عميل راضي",
-        awards: "أكثر من 2 جوائز"
+        content: "أنا مهندس تكنولوجيا معلومات، خريج جامعة تعز بمعدل 91.93%. أتخصص في تطوير الويب المتكامل (Full Stack) وبحوث الذكاء الاصطناعي، مع تركيز قوي على بناء تطبيقات ويب قابلة للتوسع وحلول ذكاء اصطناعي مبتكرة. لدي شغف عميق بالعمل الأكاديمي التعليمي وقد قمت بتطوير العديد من المنصات التعليمية، بهدف سد الفجوة بين التكنولوجيا والتعلم. تشمل خبرتي Laravel و Flutter و Python والذكاء الاصطناعي التوليدي.",
+        experience: "أكثر من 4 سنوات خبرة",
+        projects: "أكثر من 15 مشروع مكتمل",
+        clients: "أكثر من 25 عميل راضي",
+        awards: "أكثر من 3 جوائز"
       },
       services: {
         title: "الخدمات",
@@ -221,25 +241,45 @@ const resources = {
         project12: {
           title: "نظام الاستبيان",
           description: "مطور ويب متكامل | طورت نظام استبيان لجمع وتحليل ملاحظات المستخدمين لمختلف المنظمات. صممت ونفذت واجهة مستخدم سهلة لإنشاء الاستبيانات وجمع الردود. دمجت أدوات تصور البيانات لإنشاء تقارير ثاقبة من نتائج الاستبيانات. ضمنت معالجة وتخزين آمن للبيانات لردود الاستبيانات الحساسة."
+        },
+        project13: {
+          title: "AwAERP - نظام سحابي لإدارة الموارد والمحاسبة",
+          description: "مطور ويب متكامل | 2026 | المملكة العربية السعودية | تصميم وتطوير منصة شاملة لإدارة الموارد والمحاسبة قائمة على السحابة باستخدام Laravel و PHP و Tailwind CSS، تتميز بإدارة الفروع المتعددة والامتثال الكامل لمعايير ZATCA السعودية. تم تصميم بروتوكولات قوية للأمن السيبراني وحوكمة البيانات، مع تنفيذ تشفير AES-256، والتحكم في الوصول القائم على الأدوار (RBAC)، ومنع حقن SQL، وسجلات تدقيق مؤتمتة مفصلة. تطوير وحدات متكاملة للغاية لنقاط البيع، والتقارير المالية المؤتمتة، وتتبع المخزون (FIFO/LIFO/AVG)، وواجهات برمجة تطبيقات RESTful قابلة للتوسع لضمان التوافق عبر الأجهزة."
+        },
+        project14: {
+          title: "تطبيق ذكي لإدارة المصروفات",
+          description: "مطور تطبيقات جوال وويب | 2025 | اليمن | تصميم وهندسة تطبيق جوال متعدد المنصات لتتبع الشؤون المالية وإدارة المصروفات في الوقت الفعلي باستخدام إطار عمل Flutter ولغة البرمجة Dart. تم بناء واجهة خلفية آمنة وقابلة للتوسع باستخدام Laravel، مع تطوير واجهات برمجة تطبيقات RESTful قوية للتعامل مع مزامنة البيانات السلسة، ومصادقة المستخدم، وتخزين السجلات المالية."
+        },
+        project15: {
+          title: "منصة التقييم الذكي والتعلم الشخصي",
+          description: "مطور ذكاء اصطناعي | يناير 2025 | المملكة العربية السعودية | تطوير منصة ويب متكاملة مدعومة بالذكاء الاصطناعي مصممة للتعلم التكيفي والتقييم التعليمي الذكي. الاستفادة من معالجة اللغات الطبيعية المتقدمة (NLP) والذكاء الاصطناعي التوليدي (LLMs) لتوفير موارد دراسية شخصية، وتوليد أسئلة اختيار من متعدد ديناميكيًا، ونشر روبوت دردشة تفاعلي لدعم الطلاب."
+        },
+        project16: {
+          title: "نظام ذكي لإدارة وحضور الموظفين",
+          description: "مطور ذكاء اصطناعي | 2025 | اليمن | هندسة خط معالجة للتعلم العميق في الوقت الفعلي بلغة Python باستخدام MTCNN للكشف القوي عن الوجوه المتعددة. دمج نموذج FaceNet مُدرب مسبقًا لإنشاء تضمينات وجهية بدقة عالية تبلغ 512 بعدًا. تطوير واجهة برمجة تطبيقات RESTful خلفية آمنة وقابلة للتوسع باستخدام Flask للتعامل مع التحقق من الحضور."
+        },
+        project17: {
+          title: "نظام إدارة محتوى لمحاسب قانوني",
+          description: "مطور ويب متكامل | 2025 | اليمن | هندسة موقع ويب كامل وحل خلفي باستخدام تقنيات PHP/MySQL عالية الأداء. بناء نظام إدارة محتوى (CMS) مخصص وآمن من الصفر مع وظائف CRUD كاملة، مما يمكن العملاء غير التقنيين من إدارة محتوى الموقع وكلمات SEO والأنماط المرئية بسلاسة."
         }
       },
       testimonials: {
         title: "آراء العملاء",
         subtitle: "ما يقوله العملاء",
         client1: {
-          text: "عمل رائع! جون قدم بالضبط ما نحتاجه وتجاوز توقعاتنا.",
-          name: "سارة جونسون",
-          position: "الرئيس التنفيذي، حلول التقنية"
+          text: "سليم مطور استثنائي. لقد أنجز نظام ERP الخاص بنا باحترافية عالية والتزام كامل بمعايير هيئة الزكاة والضريبة والجمارك.",
+          name: "م. أحمد السعيدي",
+          position: "المدير التنفيذي، حلول التقنية - اليمن"
         },
         client2: {
-          text: "محترف، مبدع، وموثوق. أنصح بشدة بجون لأي مشروع ويب.",
-          name: "مايكل تشين",
-          position: "مدير التسويق"
+          text: "محترف ومبدع وموثوق. المنصة التعليمية التي طورها لنا أحدثت نقلة نوعية في برامجنا التدريبية.",
+          name: "د. محمد العمري",
+          position: "المدير الأكاديمي - السعودية"
         },
         client3: {
-          text: "الاهتمام بالتفاصيل وجودة العمل استثنائية. تواصل ممتاز طوال الوقت.",
-          name: "إيما ديفيس",
-          position: "مدير المنتج"
+          text: "الاهتمام بالتفاصيل في نظام الحضور بالذكاء الاصطناعي كان استثنائياً. تواصل ممتاز وخبرة تقنية واسعة.",
+          name: "عبد الله باوزير",
+          position: "مدير العمليات - اليمن"
         }
       },
       skills: {
@@ -261,13 +301,13 @@ const resources = {
           send: "إرسال الرسالة"
         },
         info: {
-          address: "123 شارع المطورين، مدينة التقنية، TC 12345",
-          phone: "+1 (555) 123-4567",
-          email: "john@example.com"
+          address: "جدة، حي الريان، المملكة العربية السعودية",
+          phone: "+966 539779728",
+          email: "saleemaliquid@gmail.com"
         }
       },
       footer: {
-        copyright: "© 2025 سليم علي. جميع الحقوق محفوظة.",
+        copyright: "© 2026 سليم علي. جميع الحقوق محفوظة.",
         madeWith: "صنع بحب باستخدام React & Tailwind CSS"
       }
     }

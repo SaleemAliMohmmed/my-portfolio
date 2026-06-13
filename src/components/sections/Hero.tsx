@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           backgroundAttachment: 'fixed'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-purple-900/70 to-pink-900/60 dark:from-gray-900/90 dark:via-blue-900/80 dark:to-purple-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/60 via-purple-900/50 to-pink-900/40 dark:from-gray-900/90 dark:via-blue-900/80 dark:to-purple-900/70"></div>
       </div>
 
       {/* Animated background elements */}
@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 src="/images/profile-headshot.jpg"
                 alt="Saleem Ali"
-                className="relative w-80 h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
+                className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
               />
               <motion.div
                 animate={{ y: [0, -10, 0] }}

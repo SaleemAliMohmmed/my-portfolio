@@ -12,10 +12,10 @@ const Skills: React.FC = () => {
       icon: Code,
       color: 'from-blue-500 to-cyan-500',
       skills: [
-        { name: 'React/Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
+        { name: 'JavaScript/TypeScript', level: 95 },
+        { name: 'React JS', level: 90 },
         { name: 'Tailwind CSS', level: 92 },
-        { name: 'Vue.js', level: 85 }
+        { name: 'Bootstrap/jQuery', level: 85 }
       ]
     },
     {
@@ -23,10 +23,10 @@ const Skills: React.FC = () => {
       icon: Server,
       color: 'from-green-500 to-emerald-500',
       skills: [
-        { name: 'Node.js', level: 88 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 82 },
-        { name: 'MongoDB', level: 80 }
+        { name: 'PHP (Laravel)', level: 95 },
+        { name: 'Python (Flask)', level: 90 },
+        { name: 'C++/Java/C#', level: 85 },
+        { name: 'RESTful APIs', level: 92 }
       ]
     },
     {
@@ -34,10 +34,10 @@ const Skills: React.FC = () => {
       icon: Palette,
       color: 'from-purple-500 to-pink-500',
       skills: [
-        { name: 'Figma', level: 90 },
-        { name: 'Adobe XD', level: 85 },
-        { name: 'Photoshop', level: 78 },
-        { name: 'Illustrator', level: 75 }
+        { name: 'Machine Learning', level: 88 },
+        { name: 'Deep Learning', level: 85 },
+        { name: 'NLP & LLMs', level: 90 },
+        { name: 'Hugging Face', level: 85 }
       ]
     },
     {
@@ -45,19 +45,19 @@ const Skills: React.FC = () => {
       icon: Smartphone,
       color: 'from-orange-500 to-red-500',
       skills: [
-        { name: 'React Native', level: 85 },
-        { name: 'Flutter', level: 80 },
-        { name: 'iOS Development', level: 75 },
-        { name: 'Android', level: 70 }
+        { name: 'Flutter', level: 92 },
+        { name: 'Dart', level: 90 },
+        { name: 'Cross-Platform', level: 88 },
+        { name: 'Android', level: 80 }
       ]
     }
   ];
 
   const tools = [
-    { name: 'Git', icon: Globe },
-    { name: 'Docker', icon: Database },
-    { name: 'AWS', icon: Shield },
-    { name: 'Vercel', icon: Zap }
+    { name: 'MySQL/SQL Server', icon: Database },
+    { name: 'Oracle/PLSQL', icon: Shield },
+    { name: 'Git/GitHub', icon: Globe },
+    { name: 'Postman/Swagger', icon: Zap }
   ];
 
   const containerVariants = {

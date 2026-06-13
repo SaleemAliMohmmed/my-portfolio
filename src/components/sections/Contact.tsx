@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', color: 'hover:text-gray-900 dark:hover:text-white' },
+    { icon: Github, href: 'https://github.com/SaleemAliMohmmed', color: 'hover:text-gray-900 dark:hover:text-white' },
     { icon: Linkedin, href: '#', color: 'hover:text-blue-600' },
     { icon: Twitter, href: '#', color: 'hover:text-blue-400' },
     { icon: Instagram, href: '#', color: 'hover:text-pink-600' }

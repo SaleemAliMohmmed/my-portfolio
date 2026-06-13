@@ -14,59 +14,59 @@ const Projects: React.FC = () => {
       description: t('projects.project4.description'),
       image: '/images/portfolio.png',
       technologies: ['React JS', 'Tailwind CSS'],
-      github: '#',
+      github: 'https://github.com/SaleemAliMohmmed',
       live: '#',
       category: 'UI/UX Design'
     },
     {
       title: t('projects.project5.title'),
       description: t('projects.project5.description'),
-      image: '/images/buraqplus.png', // Placeholder image
+      image: '/images/buraqplus.png',
       technologies: ['Full Stack', 'Education'],
       github: '#',
-      live: '#',
+      live: 'https://al-buraqplus.com',
       category: 'Web Development'
     },
     {
       title: t('projects.project6.title'),
       description: t('projects.project6.description'),
-      image: '/images/farham-web.png', // Placeholder image
+      image: '/images/farham-web.png',
       technologies: ['Full Stack', 'CRUD', 'Bilingual'],
       github: '#',
-      live: '#',
+      live: 'https://farhm.org',
       category: 'Web Development'
     },
     {
       title: t('projects.project7.title'),
       description: t('projects.project7.description'),
-      image: '/images/maza-web.png', // Placeholder image
+      image: '/images/maza-web.png',
       technologies: ['Laravel', 'MySQL', 'Back-end'],
       github: '#',
-      live: '#',
+      live: 'https://a.mazaya.academy',
       category: 'Back-end Development'
     },
     {
       title: t('projects.project8.title'),
       description: t('projects.project8.description'),
-      image: '/images/todawini.png', // Placeholder image
+      image: '/images/todawini.png',
       technologies: ['Laravel', 'Back-end', 'Medical'],
       github: '#',
-      live: '#',
+      live: 'https://todawini.com',
       category: 'Back-end Development'
     },
-    // {
-    //   title: t('projects.project9.title'),
-    //   description: t('projects.project9.description'),
-    //   image: '/images/Sentiment-Analysis.png', // Placeholder image
-    //   technologies: ['Python', 'Flask', 'NLP'],
-    //   github: '#',
-    //   live: '#',
-    //   category: 'AI/ML'
-    // },
+    {
+      title: t('projects.project9.title'),
+      description: t('projects.project9.description'),
+      image: '/images/Sentiment-Analysis.png',
+      technologies: ['Python', 'Flask', 'NLP'],
+      github: '#',
+      live: '#',
+      category: 'AI/ML'
+    },
     {
       title: t('projects.project10.title'),
       description: t('projects.project10.description'),
-      image: '/images/project-web-development.png', // Placeholder image
+      image: '/images/project-web-development.png',
       technologies: ['Laravel', 'Back-end', 'Webhook'],
       github: '#',
       live: '#',
@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project11.title'),
       description: t('projects.project11.description'),
-      image: '/images/project-web-development.png', // Placeholder image
+      image: '/images/project-web-development.png',
       technologies: ['C#', 'SQL Server', 'Desktop'],
       github: '#',
       live: '#',
@@ -84,10 +84,55 @@ const Projects: React.FC = () => {
     {
       title: t('projects.project12.title'),
       description: t('projects.project12.description'),
-      image: '/images/project-web-development.png', // Placeholder image
+      image: '/images/project-web-development.png',
       technologies: ['Full Stack', 'Survey', 'Data Visualization'],
       github: '#',
       live: '#',
+      category: 'Web Development'
+    },
+    {
+      title: t('projects.project13.title'),
+      description: t('projects.project13.description'),
+      image: '/images/project-dashboard.png',
+      technologies: ['Laravel', 'PHP', 'Tailwind CSS', 'ZATCA'],
+      github: '#',
+      live: 'https://hesabatipro.com',
+      category: 'Full Stack Development'
+    },
+    {
+      title: t('projects.project14.title'),
+      description: t('projects.project14.description'),
+      image: '/images/project-mobile-app.jpg',
+      technologies: ['Flutter', 'Dart', 'Laravel', 'RESTful API'],
+      github: '#',
+      live: '#',
+      category: 'Mobile Development'
+    },
+    {
+      title: t('projects.project15.title'),
+      description: t('projects.project15.description'),
+      image: '/images/project-web-development.png',
+      technologies: ['AI', 'NLP', 'LLMs', 'React', 'Python'],
+      github: '#',
+      live: '#',
+      category: 'AI Development'
+    },
+    {
+      title: t('projects.project16.title'),
+      description: t('projects.project16.description'),
+      image: '/images/project-dashboard.png',
+      technologies: ['Python', 'MTCNN', 'FaceNet', 'Flask'],
+      github: '#',
+      live: '#',
+      category: 'AI Development'
+    },
+    {
+      title: t('projects.project17.title'),
+      description: t('projects.project17.description'),
+      image: '/images/project-web-development.png',
+      technologies: ['PHP', 'MySQL', 'CMS', 'SEO'],
+      github: '#',
+      live: 'https://yemenlegalaccountant.com',
       category: 'Web Development'
     }
   ];
@@ -137,29 +182,19 @@ const Projects: React.FC = () => {
           </motion.p>
         </motion.div>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="grid md:grid-cols-2 lg:grid-cols-2 gap-8"
-        >
-          {projects.map((project, index) => (
-            <motion.div
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+          {projects.length > 0 ? projects.map((project, index) => (
+            <div
               key={index}
-              variants={cardVariants}
-              whileHover={{ y: -5 }}
               onClick={() => setSelectedProject(index)}
               className="group relative bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer border border-gray-200 dark:border-gray-700"
             >
               {/* Project Image */}
               <div className="relative h-64 overflow-hidden">
-                <motion.img
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ duration: 0.3 }}
+                <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 
@@ -169,33 +204,31 @@ const Projects: React.FC = () => {
                 </div>
 
                 {/* Hover Overlay */}
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileHover={{ opacity: 1 }}
-                  className="absolute inset-0 bg-blue-600/80 flex items-center justify-center space-x-4 rtl:space-x-reverse"
+                <div
+                  className="absolute inset-0 bg-blue-600/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4 rtl:space-x-reverse"
                 >
-                  <motion.button
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="p-3 bg-white text-blue-600 rounded-full shadow-lg"
+                  <button
+                    className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
                   >
                     <Eye size={20} />
-                  </motion.button>
-                  <motion.button
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="p-3 bg-white text-blue-600 rounded-full shadow-lg"
+                  </button>
+                  <button
+                    className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
                   >
                     <Github size={20} />
-                  </motion.button>
-                  <motion.button
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="p-3 bg-white text-blue-600 rounded-full shadow-lg"
-                  >
-                    <ExternalLink size={20} />
-                  </motion.button>
-                </motion.div>
+                  </button>
+                  {project.live !== '#' && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <ExternalLink size={20} />
+                    </a>
+                  )}
+                </div>
               </div>
 
               {/* Project Content */}
@@ -219,16 +252,19 @@ const Projects: React.FC = () => {
                   ))}
                 </div>
 
-                <motion.button
-                  whileHover={{ x: 5 }}
-                  className="text-blue-600 dark:text-blue-400 font-medium group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300"
+                <div
+                  className="text-blue-600 dark:text-blue-400 font-medium group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300 flex items-center"
                 >
-                  {t('projects.viewProject')} →
-                </motion.button>
+                  {t('projects.viewProject')} <span className="ml-2 rtl:mr-2">→</span>
+                </div>
               </div>
-            </motion.div>
-          ))}
-        </motion.div>
+            </div>
+          )) : (
+            <div className="col-span-full text-center py-10 text-gray-500">
+              No projects found.
+            </div>
+          )}
+        </div>
 
         {/* Project Modal */}
         <AnimatePresence>
@@ -268,10 +304,17 @@ const Projects: React.FC = () => {
                     {projects[selectedProject].description}
                   </p>
                   <div className="flex space-x-4 rtl:space-x-reverse">
-                    <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-2 rtl:space-x-reverse">
-                      <ExternalLink size={16} />
-                      <span>Live Demo</span>
-                    </button>
+                    {projects[selectedProject].live !== '#' && (
+                      <a
+                        href={projects[selectedProject].live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-2 rtl:space-x-reverse"
+                      >
+                        <ExternalLink size={16} />
+                        <span>Live Demo</span>
+                      </a>
+                    )}
                     <button className="px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors flex items-center space-x-2 rtl:space-x-reverse">
                       <Github size={16} />
                       <span>Source Code</span>
