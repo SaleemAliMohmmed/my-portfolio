@@ -78,8 +78,8 @@ const CookieConsent: React.FC = () => {
                 </button>
               </div>
 
-              <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-700 flex items-center gap-2 text-[10px] text-gray-400">
-                <ShieldCheck size={12} />
+              <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-700 flex items-center gap-2 text-xs text-gray-600 dark:text-gray-300">
+                <ShieldCheck size={16} />
                 <span>{isRTL ? 'خصوصيتك محمية دائماً' : 'Your privacy is always protected'}</span>
               </div>
             </div>

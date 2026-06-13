@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/SaleemAliMohmmed', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' }
+    { icon: Github, href: 'https://github.com/SaleemAliMohmmed', label: 'Visit my GitHub profile' },
+    { icon: Linkedin, href: '#', label: 'Visit my LinkedIn profile' },
+    { icon: Twitter, href: '#', label: 'Visit my Twitter/X profile' },
+    { icon: Instagram, href: '#', label: 'Visit my Instagram profile' }
   ];
 
   const quickLinks = [

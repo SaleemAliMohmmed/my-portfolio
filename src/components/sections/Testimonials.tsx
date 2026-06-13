@@ -144,9 +144,9 @@ const Testimonials: React.FC = () => {
                 transition={{ delay: 0.5 }}
                 className="text-center"
               >
-                <h4 className="text-lg font-bold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white">
                   {testimonials[currentIndex].name}
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   {testimonials[currentIndex].position}
                 </p>
@@ -161,6 +161,7 @@ const Testimonials: React.FC = () => {
               whileHover={{ scale: 1.05, x: isRTL ? 5 : -5 }}
               whileTap={{ scale: 0.95 }}
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
+              aria-label={isRTL ? "التالي" : "Previous testimonial"}
             >
               <ChevronLeft className={`w-6 h-6 text-gray-600 dark:text-gray-400 ${isRTL ? 'rotate-180' : ''}`} />
             </motion.button>
@@ -173,12 +174,17 @@ const Testimonials: React.FC = () => {
                   onClick={() => setCurrentIndex(index)}
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.8 }}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  className={`w-11 h-11 rounded-full transition-all duration-300 flex items-center justify-center ${
                     index === currentIndex
-                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 w-8'
+                      ? 'bg-gradient-to-r from-blue-600 to-purple-600'
                       : 'bg-gray-300 dark:bg-gray-600'
                   }`}
-                />
+                  aria-label={`Go to testimonial ${index + 1}`}
+                >
+                  {index === currentIndex && (
+                    <span className="w-3 h-3 rounded-full bg-white" />
+                  )}
+                </motion.button>
               ))}
             </div>
 
@@ -187,6 +193,7 @@ const Testimonials: React.FC = () => {
               whileHover={{ scale: 1.05, x: isRTL ? -5 : 5 }}
               whileTap={{ scale: 0.95 }}
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
+              aria-label={isRTL ? "السابق" : "Next testimonial"}
             >
               <ChevronRight className={`w-6 h-6 text-gray-600 dark:text-gray-400 ${isRTL ? 'rotate-180' : ''}`} />
             </motion.button>

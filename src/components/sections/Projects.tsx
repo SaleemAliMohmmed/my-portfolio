@@ -226,7 +226,7 @@ const Projects: React.FC = () => {
                       rel="noopener noreferrer"
                       className="p-3 bg-white text-blue-600 rounded-full shadow-lg transform transition-transform hover:scale-110"
                       onClick={(e) => e.stopPropagation()}
-                      aria-label="View live project"
+                      aria-label={`View live ${project.title} project`}
                     >
                       <ExternalLink size={20} />
                     </a>
